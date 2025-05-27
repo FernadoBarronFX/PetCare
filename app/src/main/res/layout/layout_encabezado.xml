@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:weightSum="3">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_petcare2"
+        android:paddingTop="20dp"/>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_petcare"
+        android:paddingTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/btnAjustes"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_settings"
+        android:paddingTop="20dp"/>
+</LinearLayout>

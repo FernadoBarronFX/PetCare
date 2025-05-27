@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/txtDiaEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01/05/2025"
+        android:textStyle="bold"
+        android:textColor="@color/colorOnSecondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtTituloEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vacunación"
+        android:textColor="@color/colorOnSecondary"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/grisClaro"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/txtContenidoNotificacion"
+        android:text="Mensaje de la notificación"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/grisOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtMensajeNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grisOscuro"
+        android:layout_marginTop="4dp"
+        android:text="Mensaje de la notificación" />
+
+
+    <TextView
+        android:id="@+id/txtFechaNotificacion"
+        android:text="12/05/2025"
+        android:textSize="12sp"
+        android:textColor="@color/grisOscuro"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnCompletada"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:backgroundTint="@color/background"
+            android:text="Marcar como completada"
+            android:textColor="@color/colorOnSecondary" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:text="Eliminar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:layout_marginStart="8dp"
+            />
+    </LinearLayout>
+</LinearLayout>

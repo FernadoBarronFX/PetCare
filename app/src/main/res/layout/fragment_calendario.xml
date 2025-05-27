@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@color/background">
+
+    <!-- Fila superior para cambiar de mes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnMesAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ant." />
+
+        <TextView
+            android:id="@+id/txtMesActual"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Mayo 2025"
+            android:textSize="20sp"
+            android:textColor="@color/colorOnSecondary"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMesSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sig." />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCalendario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtEventosDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actividades del día:"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorOnSecondary"
+        android:textStyle="bold" />
+
+    <!-- Lista de actividades del mes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerEventosMes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

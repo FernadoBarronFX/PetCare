@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_mascotas"
+        android:icon="@drawable/ic_pet"
+        android:title="Mascotas" />
+    <item
+        android:id="@+id/nav_actividades"
+        android:icon="@drawable/ic_book"
+        android:title="Actividades" />
+    <item
+        android:id="@+id/nav_calendario"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calendario" />
+    <item
+        android:id="@+id/nav_notificaciones"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notificaciones" />
+</menu>

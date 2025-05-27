@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4DD0E1</color> <!-- turquesa medio -->
+    <color name="colorPrimaryVariant">#26C6DA</color> <!-- azul más fuerte -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- texto en botones -->
+    <color name="colorSecondary">#80DEEA</color> <!-- azul claro -->
+    <color name="colorOnSecondary">#000000</color> <!-- texto en botones claros -->
+    <color name="background">#FFFFFF</color> <!-- fondo suave -->
+    <color name="white">#FFFFFF</color>
+    <color name="azulFuerte">#2EC4F1</color>
+    <color name="azulFondo">#B0F1FC</color>
+    <color name="grisOscuro">#353434</color>
+    <color name="rojo">#FF0000</color>
+    <color name="verde">#00FF05</color>
+    <color name="grisClaro">#D82EC2EF</color>
+    <color name="bottom_nav_selector">#FF000000</color> <!-- Negro por defecto -->
+</resources>
