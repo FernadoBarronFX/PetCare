@@ -23,48 +23,64 @@
             android:id="@+id/editNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Nombre" />
 
         <EditText
             android:id="@+id/editEdad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Edad" />
 
         <EditText
             android:id="@+id/editEspecie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Especie" />
 
         <EditText
             android:id="@+id/editSexo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Sexo" />
 
         <EditText
             android:id="@+id/editRaza"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Raza" />
 
         <EditText
             android:id="@+id/editColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Color" />
 
         <EditText
             android:id="@+id/editPeso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Peso (kg)" />
 
         <EditText
             android:id="@+id/editEnfermedades"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Enfermedades"
             android:inputType="textMultiLine"
             android:lines="3" />

@@ -1,15 +1,17 @@
+# Archivos de configuración y compilación
+.gradle/
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+build/
+captures/
+.externalNativeBuild/
+.cxx/
 local.properties
+
+# Archivos del sistema
+.DS_Store
+*.log
+
+# Archivos de Android Studio
+*.apk
+*.ap_

@@ -25,6 +25,8 @@
             android:id="@+id/etNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Nombre"
             android:enabled="false" />
 
@@ -32,6 +34,8 @@
             android:id="@+id/etEdad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Edad"
             android:enabled="false" />
 
@@ -39,6 +43,8 @@
             android:id="@+id/etEspecie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Especie"
             android:enabled="false" />
 
@@ -46,6 +52,8 @@
             android:id="@+id/etSexo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Sexo"
             android:enabled="false" />
 
@@ -53,6 +61,8 @@
             android:id="@+id/etRaza"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Raza"
             android:enabled="false" />
 
@@ -60,6 +70,8 @@
             android:id="@+id/etColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Color"
             android:enabled="false" />
 
@@ -67,6 +79,8 @@
             android:id="@+id/etPeso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Peso"
             android:enabled="false" />
 
@@ -74,6 +88,8 @@
             android:id="@+id/etEnfermedades"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Enfermedades"
             android:enabled="false" />
 

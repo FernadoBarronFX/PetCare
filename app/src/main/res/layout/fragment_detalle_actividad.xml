@@ -23,6 +23,8 @@
             android:id="@+id/etTituloActividad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:enabled="false" />
 
         <TextView
@@ -37,6 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:enabled="false"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:minLines="3"
             android:gravity="top" />
 
@@ -51,6 +55,8 @@
             android:id="@+id/etFechaActividad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:enabled="false" />
 
         <!-- Botones de acción -->

@@ -19,6 +19,8 @@
             android:id="@+id/editTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Ej. Vacunación" />
 
         <TextView android:text="Descripción"
@@ -31,6 +33,8 @@
             android:id="@+id/editDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Ej. Aplicación de vacuna anual" />
 
         <TextView android:text="Fecha"
@@ -43,6 +47,8 @@
             android:id="@+id/editFecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
             android:hint="Selecciona una fecha"
             android:focusable="false" />
 
