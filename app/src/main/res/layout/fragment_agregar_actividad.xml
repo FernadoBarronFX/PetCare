@@ -13,6 +13,7 @@
         <TextView android:text="Título"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
             android:textStyle="bold"/>
 
         <EditText
@@ -26,6 +27,7 @@
         <TextView android:text="Descripción"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
             android:textStyle="bold"
             android:layout_marginTop="12dp"/>
 
@@ -40,6 +42,7 @@
         <TextView android:text="Fecha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#000000"
             android:textStyle="bold"
             android:layout_marginTop="12dp"/>
 
